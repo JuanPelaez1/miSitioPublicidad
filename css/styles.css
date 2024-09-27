@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+.custom-nav .nav-link {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus {
+    background-color: transparent;
+    color: black;
+}
+.custom-nav .nav-link:hover {
+    background-color: transparent;
+    color: rgb(252, 254, 255);
+}
+
+.carousel-item img{
+    height: 400px;   /*Cambia la altura para hacer el carrusel mas pequeño*/
+    object-fit: cover;  /*Asegura que la imagen mantenga su proporcion*/
+}
+
+.carousel {
+    width: 80%; /*Ajusta el ancho del carrusel*/
+    margin: 0 auto; /* Centra el carrusel*/
+}
+.welcome-text {
+    font-size: 3rem;  /* Tamaño de la letra grande*/
+    font-family: 'Times New Roman', Times, serif; /*Aplica la fuente*/
+    margin: 10px 0; /*Espacio superior e inferior*/
+    color: white;  /*Color del texto*/
+}
+.container {
+    max-width: 100%;  /*Se adapta al ancho de la pantalla*/
+    padding: 15px; /* Espacio Interno*/
+    margin: 0 auto; /* Centra el contenedor horizontal*/
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+.footer-content{
+    background-color: rgb(179, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 800px;
+    flex-wrap: wrap;
+}
+.footer-icons a {
+    text-decoration: none;
+}
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover {
+    transform: scale(1.2);
+}
+.form-container{
+    color: rgba(255, 255, 255, 0.711);
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+} 
+.subtitle-text {
+    color: #fffdfd}
+.service-section{
+    
+}
